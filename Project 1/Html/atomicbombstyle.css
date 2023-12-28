@@ -150,7 +150,7 @@ flex-direction: column;
 
 }
 
-.bottom-of-page {
+.footer {
     display: flex;
     flex-direction: column;
 
@@ -160,6 +160,12 @@ flex-direction: column;
     background-color: orange;
     border-top: 5px solid rgb(221, 146, 7);
     border-bottom: 5px solid rgb(221, 146, 7);
+}
+.footer-icons {
+    justify-content: space-around;
+}
+.footer-item {
+    width: 40px;
 }
 
 /**Oppenheimer page**/
