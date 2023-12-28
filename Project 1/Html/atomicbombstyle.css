@@ -1,0 +1,193 @@
+/** Main header styling **/
+@media screen and (max-width: 1150px) {
+     .header-text{
+        flex-direction: column;
+        font-size: 20px;
+
+        width: 100%;
+    }
+    #main-header {
+        position: relative;
+            top: 27px;
+            right: 15px;
+    }
+    .main-nav-text {
+        position: relative;
+        bottom: 20px;
+    }
+    .top-nav {
+        font-size: 25px;
+    }
+    #top-image-text {
+flex-direction: column;
+text-align: center;
+    }
+
+    .main-articles {
+        flex-direction: column;
+        margin-right: 60px;
+    }
+    .mid-section {
+        margin-top: 30px;
+    }
+
+}
+
+#header {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5rem;
+
+    background: rgb(255, 174, 0);
+    border-top: 10px solid rgb(221, 146, 7);
+    border-bottom: 10px solid rgb(221, 146, 7);
+
+    white-space: nowrap;
+    position: relative;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.main-nav-text {
+font-size: 30px;
+
+display: flex;
+justify-content: flex-end;
+width: 100%;
+
+position: relative;
+right: 20%;
+}
+
+.symbol {
+    width: 30px;
+    height: auto;
+
+    margin-left: 5px;
+}
+
+.nav-item {
+    margin-left: 40px;
+    position: relative;
+}
+
+
+/**https://www.w3schools.com/howto/howto_css_image_text.asp**/
+.top-image {
+    position: relative;
+    text-align: center;
+}
+#top-image-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 1.5em;
+    width: 80%;
+
+    background-color: orange;
+    border-top: 2px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+}
+
+
+/** Articles mid section **/
+.main-articles {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+    
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: row;
+
+
+    margin-right: 30px;
+    margin-left: 30px;
+
+    width: 100%;
+
+    border-top: 5px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+    background-color: rgb(214, 193, 152);
+    text-align: center;
+    
+}
+
+.left {
+display: flex;
+flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/** Articles bottom section **/
+.bottom-section {
+    text-align: center;
+    background-color: rgb(214, 193, 152);
+    border-top: 5px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+    margin-top: 15px;
+
+}
+
+.bottom-of-page {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin-top: 30px;
+
+    background-color: orange;
+    border-top: 5px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+}
+
+/**Oppenheimer page**/
+.text {
+    margin-left: 30px;
+
+}
+#oppie-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+.quote-oppie {
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+
+    grid-template-rows: 40px;
+}
+.text-section {
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
