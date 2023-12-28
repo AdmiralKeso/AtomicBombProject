@@ -1,68 +1,54 @@
 /** Main header styling **/
-@media screen and (max-width: 1150px) {
-     .header-text{
+@media screen and (max-width: 1000px) {
+    .header-text {
         flex-direction: column;
-        font-size: 20px;
-
-        width: 100%;
-    }
-    #main-header {
+        align-items: center;
         position: relative;
-            top: 27px;
-            right: 15px;
+        bottom: 10%;
     }
+
+    #header {
+        text-align: center;
+    }
+
     .main-nav-text {
         position: relative;
-        bottom: 20px;
-    }
-    .top-nav {
-        font-size: 25px;
-    }
-    #top-image-text {
-flex-direction: column;
-text-align: center;
+        bottom: 10%;
+
     }
 
-    .main-articles {
-        flex-direction: column;
-        margin-right: 60px;
-    }
-    .mid-section {
-        margin-top: 30px;
-    }
-
+}
+@media screen and (max-width: 480px) {
 }
 
 #header {
     font-family: 'Franklin Gothic Medium';
     font-size: 1.5rem;
+    
 
     background: rgb(255, 174, 0);
     border-top: 10px solid rgb(221, 146, 7);
     border-bottom: 10px solid rgb(221, 146, 7);
 
-    white-space: nowrap;
-    position: relative;
+    height: 5%;
 }
 
 .header-text {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: relative;
+    align-items: center;
+
+    justify-content: space-around;
     width: 100%;
-    margin-left: 15px;
 }
 
 .main-nav-text {
 font-size: 30px;
-
 display: flex;
-justify-content: flex-end;
-width: 100%;
 
-position: relative;
-right: 20%;
+}
+.nav-item {
+    padding-right: 3vw;
 }
 
 .symbol {
@@ -70,11 +56,6 @@ right: 20%;
     height: auto;
 
     margin-left: 5px;
-}
-
-.nav-item {
-    margin-left: 40px;
-    position: relative;
 }
 
 
@@ -95,6 +76,13 @@ right: 20%;
     background-color: orange;
     border-top: 2px solid rgb(221, 146, 7);
     border-bottom: 5px solid rgb(221, 146, 7);
+}
+#header-picture {
+    width: 1500px;
+    height: auto;
+
+    white-space: nowrap;
+    
 }
 
 
