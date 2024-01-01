@@ -16,9 +16,10 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: antiquewhite;
+            background-color: rgb(243, 214, 177);
 
             overflow-x: hidden;
+            min-width: 280px;
         }
 
         p {
@@ -35,21 +36,26 @@
         <nav>
             <ul id="top-nav" style="list-style-type: none;">
 
+                <!-- on hover https://stackoverflow.com/questions/676324/div-background-color-to-change-onhover **/ -->
+
                 <li class="nav-item">
-                    <a href="index.html" class="top-nav" style="text-decoration: none; color: black;">
+                    <a href="index.html" class="top-nav" style="text-decoration: none; color: black;"
+                        onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
                         Home<img src="assets/symbols/home.png" alt="Home symbol" class="symbol">
                     </a>
                 </li>
 
 
                 <li class="nav-item">
-                    <a href="contact.html" class="top-nav" style="text-decoration: none; color: black;">
+                    <a href="contact.html" class="top-nav" style="text-decoration: none; color: black;"
+                        onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
                         Contact<img src="assets/symbols/contact.png" alt="Contact symbol" class="symbol">
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="gallery.html" class="top-nav" style="text-decoration: none; color: black;">
+                    <a href="gallery.html" class="top-nav" style="text-decoration: none; color: black;"
+                        onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
                         Gallery<img src="assets/symbols/gallery.png" alt="Gallery symbol" class="symbol">
                     </a>
                 </li>
@@ -65,7 +71,6 @@
 
     <div class="top-image">
         <img src="assets/explosion.jpg" alt="picture of a explosion" id="header-picture">
-
         <p id="top-image-text">Welcome to this page about the atomic bomb.
             The atomic bomb is a weapon of mass destruction and uses fission to release huge amounts of energy.
             Read about scientist that were involved in the making of the bomb and read about how an atomic bomb works.
@@ -80,7 +85,7 @@
         <article class="mid-section">
 
             <section class="left">
-                <img src="assets/oppenheimer-portrait.jpg" alt="Portrait of J.Robert Oppenheimer" style="width: 214px;">
+                <img src="assets/oppenheimer-portrait.jpg" alt="Portrait of J.Robert Oppenheimer" width="200px" height="300px">
             </section>
 
             <div class="right">
@@ -98,7 +103,11 @@
                 </section>
 
                 <footer>
-                    <a href="oppenheimer.html">Click here to read more about Oppenheimer</a>
+                    <a href="oppenheimer.html" alt="Go to the Oppenheimer page.">
+                        <button class="article-button" onmouseover="this.style.background='white'"
+                            onmouseout="this.style.background='beige'">
+                            Click here to read more about J.Robert Oppenheimer</button>
+                    </a>
                 </footer>
             </div>
         </article>
@@ -106,7 +115,7 @@
         <article class="mid-section">
 
             <section class="left">
-                <img src="assets/albert-einstein-portrait-1.jpg" alt="Picture of Albert Einstein" width="220px;">
+                <img src="assets/albert-einstein-portrait-1.jpg" alt="Picture of Albert Einstein" width="200px" height="300px">
             </section>
 
             <div class="right">
@@ -124,7 +133,11 @@
                 </section>
 
                 <footer>
-                    <button id="oppenheimer-button">Click here to read more about Albert Einstein</button>
+                    <a href="einstein.html" alt="Go to the Einstein page.">
+                        <button class="article-button" onmouseover="this.style.background='white'"
+                            onmouseout="this.style.background='beige'">Click here to read more about Albert
+                            Einstein</button>
+                    </a>
                 </footer>
 
         </article>
@@ -133,22 +146,26 @@
 
     <article class="bottom-section">
         <h2>How does an atomic bomb work?</h2>
-        <p style="margin-left: 20%; margin-right: 20%;">Here you will find information about how an atomic bomb works
+        <p style="margin-left: 20%; margin-right: 20%;">
+            Here you will find information about how an atomic bomb works
             and how much damage it can do. Find about how an unstable element like uranium-235 can be used to build one
             of the worlds deadlist weapons.</p>
-        <a href="how-does-an-atomic-bomb-work" style="color: black;">Click here to read more.</a>
+            <a href="atomic_bomb_work.html" alt="Go to the ¨How the atomic bomb works¨ page.">
+                <button id="bottom-button" onmouseover="this.style.background='white'"
+                    onmouseout="this.style.background='beige'">Click here to read more</button>
+            </a>
     </article>
 
     <footer class="footer">
         <div class="footer-icons">
 
-            <a href="https://www.facebook.com/cas.hagenaar?locale=sv_SE" title="facebook page" target="_blank">
+            <a href="https://www.facebook.com" title="facebook page" target="_blank">
                 <img src="assets/symbols/facebook.png" alt="facebook icon" class="footer-item"></a>
 
-            <a href="https://twitter.com/xproplayer22x" title="twitter page" target="_blank">
+            <a href="https://twitter.com" title="twitter page" target="_blank">
                 <img src="assets/symbols/twitter.png" alt="twitter icon" class="footer-item"></a>
 
-            <a href="https://www.instagram.com/cashagenaarr/" title="instagram page" target="_blank">
+            <a href="https://www.instagram.com" title="instagram page" target="_blank" >
                 <img src="assets/symbols/instagram.png" alt="instagram icon" class="footer-item"></a>
 
         </div>
