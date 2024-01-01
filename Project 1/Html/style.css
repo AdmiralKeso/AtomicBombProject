@@ -1,0 +1,205 @@
+/** Main header styling **/
+@media screen and (max-width: 1000px) {
+    /** Header styling for all pages**/
+    .header-text {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 10%;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    .main-nav-text {
+        position: relative;
+        bottom: 10%;
+
+    }
+    /** Article styling for home page**/
+    .main-articles {
+        flex-direction: column;
+    }
+    .mid-section {
+        margin-top: 10px;
+    }
+    /** Oppneheimer page styling**/
+    .oppen-text {
+        flex-direction: column;
+    }
+    #oppen-header {
+flex-direction: column;
+    }
+    
+
+}
+@media screen and (max-width: 500px) {
+    .mid-section {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .left {
+        align-items: center;
+    }
+}
+
+
+#header {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5rem;
+    
+
+    background: rgb(255, 174, 0);
+    border-top: 10px solid rgb(221, 146, 7);
+    border-bottom: 10px solid rgb(221, 146, 7);
+
+    height: 5%;
+}
+
+.header-text {
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main-nav-text {
+font-size: 30px;
+display: flex;
+
+}
+.nav-item {
+    padding-right: 3vw;
+}
+
+.symbol {
+    width: 30px;
+    height: auto;
+
+    margin-left: 5px;
+}
+
+
+/**https://www.w3schools.com/howto/howto_css_image_text.asp**/
+.top-image {
+    position: relative;
+    text-align: center;
+}
+#top-image-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 1.5em;
+    width: 80%;
+
+    background-color: orange;
+    border-top: 2px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+}
+#header-picture {
+    width: 1500px;
+    height: auto;
+
+    white-space: nowrap;
+    
+}
+
+
+/** Articles mid section **/
+.main-articles {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 5%;
+    
+}
+
+.mid-section {
+    display: flex;
+
+
+    margin-right: 5%;
+    margin-left: 5%;
+
+    width: 100%;
+
+    border-top: 5px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+    background-color: rgb(214, 193, 152);
+    text-align: center;
+    
+}
+
+.left {
+display: flex;
+flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 5%;
+    margin-left: 5%;
+}
+/** Article bottom section **/
+.bottom-section {
+    text-align: center;
+    background-color: rgb(214, 193, 152);
+    border-top: 5px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+    margin-top: 5%;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin-top: 5%;
+
+    background-color: orange;
+    border-top: 5px solid rgb(221, 146, 7);
+    border-bottom: 5px solid rgb(221, 146, 7);
+}
+.footer-icons {
+    justify-content: space-around;
+}
+.footer-item {
+    width: 40px;
+}
+
+/**Oppenheimer page**/
+.oppenheimer-article {
+    margin-left: 30px;
+
+}
+#oppen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+.quote-oppie {
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+
+    grid-template-rows: 40px;
+}
+.oppen-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
