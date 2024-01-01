@@ -1,78 +1,53 @@
 /** Main header styling **/
-@media screen and (max-width: 1000px) {
-    /** Header styling for all pages**/
-    .header-text {
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        bottom: 10%;
-    }
-
-    #header {
-        text-align: center;
-    }
-
-    .main-nav-text {
-        position: relative;
-        bottom: 10%;
-
-    }
-    /** Article styling for home page**/
-    .main-articles {
+/**https://www.w3schools.com/cssref/css3_pr_mediaquery.php**/
+@media only screen and (max-width: 1000px) {
+    #top-header {
         flex-direction: column;
     }
-    .mid-section {
-        margin-top: 10px;
+    #top-title {
+        justify-content: center;
     }
-    /** Oppneheimer page styling**/
-    .oppen-text {
+    #top-nav {
+        padding: 0;
+    }
+
+  }
+  @media only screen and (max-width: 550px) {
+    #top-title {
+        display: flex;
         flex-direction: column;
     }
-    #oppen-header {
-flex-direction: column;
-    }
-    
-
-}
-@media screen and (max-width: 500px) {
-    .mid-section {
-        margin-top: 10px;
+    #top-nav {
         flex-direction: column;
     }
-    .left {
-        align-items: center;
+    .nav-item {
+        padding: 10px;
     }
-}
+  }
 
-
-#header {
-    font-family: 'Franklin Gothic Medium';
-    font-size: 1.5rem;
-    
-
-    background: rgb(255, 174, 0);
-    border-top: 10px solid rgb(221, 146, 7);
-    border-bottom: 10px solid rgb(221, 146, 7);
-
-    height: 5%;
-}
-
-.header-text {
-    display: flex;
-    position: relative;
-    align-items: center;
-
-    justify-content: space-around;
-    width: 100%;
-}
-
-.main-nav-text {
-font-size: 30px;
+#top-header {
+padding: 1rem;
+background: orange;
+border-top: 2px solid rgb(221, 146, 7);
+border-bottom: 5px solid rgb(221, 146, 7);
 display: flex;
-
+justify-content: space-between;
+align-items: center;
 }
+
+#top-title {
+    font-size: 42px;
+    border-bottom: 5px solid black;
+}
+
+#top-nav {
+    display: flex;
+}
+
 .nav-item {
-    padding-right: 3vw;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .symbol {
