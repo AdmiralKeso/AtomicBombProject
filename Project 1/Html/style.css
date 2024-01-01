@@ -10,6 +10,10 @@
     #top-nav {
         padding: 0;
     }
+    .main-articles {
+        flex-direction: column;
+        margin-right: 40px;
+    }
 
   }
   @media only screen and (max-width: 550px) {
@@ -22,6 +26,15 @@
     }
     .nav-item {
         padding: 10px;
+    }
+    .mid-section {
+        flex-direction: column;
+    }
+    .left {
+        align-items: center;
+    }
+    #top-image-text {
+        margin-top: 10px;
     }
   }
 
@@ -61,46 +74,36 @@ align-items: center;
 /**https://www.w3schools.com/howto/howto_css_image_text.asp**/
 .top-image {
     position: relative;
-    text-align: center;
 }
 #top-image-text {
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%);
-
-    font-size: 1.5em;
-    width: 80%;
+    bottom: 5%;
+    font-size: 120%;
+    font-family: Helvetica;
+    max-width: 80%;
+    text-align: center;
 
     background-color: orange;
     border-top: 2px solid rgb(221, 146, 7);
     border-bottom: 5px solid rgb(221, 146, 7);
 }
 #header-picture {
-    width: 1500px;
-    height: auto;
-
-    white-space: nowrap;
-    
+    width: 100%;
+    min-width: 900px;
 }
 
 
 /** Articles mid section **/
 .main-articles {
     display: flex;
-    justify-content: space-between;
-
-    margin-top: 5%;
+    justify-content: space-around;
     
 }
 
 .mid-section {
     display: flex;
 
-
-    margin-right: 5%;
-    margin-left: 5%;
-
+margin: 20px;
     width: 100%;
 
     border-top: 5px solid rgb(221, 146, 7);
