@@ -1,6 +1,6 @@
 /** Main header styling **/
 @media screen and (max-width: 1000px) {
-    /** Header styling **/
+    /** Header styling for all pages**/
     .header-text {
         flex-direction: column;
         align-items: center;
@@ -17,12 +17,19 @@
         bottom: 10%;
 
     }
-    /** Article styling **/
+    /** Article styling for home page**/
     .main-articles {
         flex-direction: column;
     }
     .mid-section {
         margin-top: 10px;
+    }
+    /** Oppneheimer page styling**/
+    .oppen-text {
+        flex-direction: column;
+    }
+    #oppen-header {
+flex-direction: column;
     }
     
 
@@ -169,11 +176,11 @@ flex-direction: column;
 }
 
 /**Oppenheimer page**/
-.text {
+.oppenheimer-article {
     margin-left: 30px;
 
 }
-#oppie-header {
+#oppen-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -186,6 +193,10 @@ flex-direction: column;
     text-align: center;
 
     grid-template-rows: 40px;
+}
+.oppen-text {
+    display: flex;
+    justify-content: space-around;
 }
 
 
