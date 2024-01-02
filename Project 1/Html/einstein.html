@@ -6,119 +6,136 @@
         <meta name="description" content="This page is about Albert Einstein. His childhood and his role in the development of the atomic bomb">
 
 <link rel="stylesheet" href="style.css">
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+
+        font-family: 'Times New Roman';
+
+    }
+</style>
 
     </head>
 
     <body>
-        <header id="header">
-        
+        <header id="top-header">
 
-            <!--The main header text-->
+            <h1 id="top-title">THE ATOMIC BOMB</h1>
+            <nav>
+                <ul id="top-nav" style="list-style-type: none;">
     
-            
-            <div class="header-text">
-                <h1 id="main-header">THE ATOMIC BOMB</h1>
-    <nav>
-        <ul class="main-nav-text" style="list-style-type: none;">
+                    <!-- on hover https://stackoverflow.com/questions/676324/div-background-color-to-change-onhover **/ -->
     
-            
-                <li class="nav-item">
-                    <a href="index.html" class="top-nav" style="text-decoration: none; color: black;">
-                        Home<img src="assets/symbols/home.png" alt="Home symbol" class="symbol">
-                            </a></li>
-                    
-                    
-                
-                
-            
+                    <li class="nav-item">
+                        <a href="index.html" class="top-nav" style="text-decoration: none; color: black;"
+                            onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
+                            Home<img src="assets/symbols/home.png" alt="Home symbol" class="symbol">
+                        </a>
+                    </li>
     
-                <li class="nav-item">
-                    <a href="contact.html" class="top-nav" style="text-decoration: none; color: black;">
-                        Contact<img src="assets/symbols/contact.png" alt="Contact symbol" class="symbol">
-                            </a></li>
-                    
-                    
-                
-                
     
-                <li class="nav-item">
-                    <a href="gallery.html" class="top-nav" style="text-decoration: none; color: black;">
-                        Gallery<img src="assets/symbols/gallery.png" alt="Gallery symbol" class="symbol">
-                           </a></li>
-                    
-                
-                    
-            </ul>
-    </nav>
-    </div>
-        
+                    <li class="nav-item">
+                        <a href="contact.html" class="top-nav" style="text-decoration: none; color: black;"
+                            onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
+                            Contact<img src="assets/symbols/contact.png" alt="Contact symbol" class="symbol">
+                        </a>
+                    </li>
     
-    </header>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="top-nav" style="text-decoration: none; color: black;"
+                            onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
+                            Gallery<img src="assets/symbols/gallery.png" alt="Gallery symbol" class="symbol">
+                        </a>
+                    </li>
+    
+    
+    
+                </ul>
+            </nav>
+            </div>
+    
+    
+        </header>
     
     <article>
-        <div class="einstein-intro">
-            <header>
+        
+        
+            <header class="article-title">
                 <h2>Albert Einstein</h2>
+                <p style="margin-bottom: 5px ;">1879-1955</p>
             </header>
+            
+            <div class="article-top">
+                <div class="article-text">
             <section>
-                <h3>Young Einstein</h3>
-                <p>Albert Einstein was born on March the 14, 1879, in the southern part of
+                <h3 style="border-bottom: 5px solid black; font-size: 30px;">Young Einstein</h3>
+                <p style="margin-left: 15px;">Albert Einstein was born on March the 14, 1879, in the southern part of
                     Germany in a city called Ulm but grew up in Munich in a middle-class Jewish family. As a kid, Einstein
-                    became fascinated
-                    in music, particularly the violin, which he played. Other than that he also loved
+                    became fascinated in music, particularly the violin, which he played. Other than that he also loved
                     mathematics and science.
                 </p>
             </section>
-            <img src="albert_einstein_portrait.jpg" alt="Portrait of Albert Einstein" name="albert-einstein">
+            <section>
+                <h3 style="border-bottom: 5px solid black; font-size: 30px;">Einsteins calculations</h3>
+                <p style="margin-left: 15px;">
+                    Einstein dropped out of school in 1894 and resumed his schooling in Switzerland, gaining admission to the
+                    Swiss Federal Polytechnic Institute in Zurich.
+                    In 1896, Einstein became stateless after renouncing his German citizenship, and he remained stateless before
+                    becoming a Swiss citizen in 1901. Einstein later found a position as a clerk at the Swiss patent office in
+                    Bern were he would
+                    create some of his amazing work, namely four groundbreaking articles.<br>
+                    <br>
+                    The first paper was about quantum theory that was developed by a German physicist called Max Planck.
+                    Einstein took Max Planck's quantum theory and applied it to light. The result would be
+                    a explanation of a phenomenon known as the photoelectric effect.<br>
+        <br>
+                    In the second article, he came to the conclusion that atoms exist by analysing a phenomenon of a botanist
+                    called Robert Brown and his theory
+                    called the Brownian motion. The Brownian motion described the random movement of particles suspended in
+                    water.<br>
+        <br>
+                    The third article which also was the most famous, was titled the Electrodynamics of Moving Bodies. This
+                    article stated that Einstein confronted two principal theories of two physicist,
+                    Isaac Newton's and his concept of absolute space and time, and James Clerk Maxwell's idea that speed of
+                    light is a constant. Einstein did this by introducing a special theory of relativity that stated
+                    that the laws of physics are the same even for objects traveling in different inertial frames and that the
+                    speed of light is constantly the same.<br>
+        <br>
+                    The fifth article he created he famous equation E=mc^2. Its purpose is to calculate the relationship between
+                    mass and energy.
+                    The equation means mass (m) times the speed of light squared (c^2) is equal to the kinetic energy (E).
+                </p>
+            </section>
+        </div>
+            <img src="assets/albert_einstein_portrait-2.jpg" alt="Portrait of Albert Einstein" class="article-portrait">
         </div>
     
-        <section>
-            <h3>Einsteins calculations</h3>
-            <p>
-                Einstein dropped out of school in 1894 and resumed his schooling in Switzerland, gaining admission to the
-                Swiss Federal Polytechnic Institute in Zurich.
-                In 1896, Einstein became stateless after renouncing his German citizenship, and he remained stateless before
-                becoming a Swiss citizen in 1901. Einstein later found a position as a clerk at the Swiss patent office in
-                Bern were he would
-                create some of his amazing work, namely four groundbreaking articles.
-    
-                The first paper was about quantum theory that was developed by a German physicist called Max Planck.
-                Einstein took Max Planck's quantum theory and applied it to light. The result would be
-                a explanation of a phenomenon known as the photoelectric effect.
-    
-                In the second article, he came to the conclusion that atoms exist by analysing a phenomenon of a botanist
-                called Robert Brown and his theory
-                called the Brownian motion. The Brownian motion described the random movement of particles suspended in
-                water.
-    
-                The third article which also was the most famous, was titled the Electrodynamics of Moving Bodies. This
-                article stated that Einstein confronted two principal theories of two physicist,
-                Isaac Newton's and his concept of absolute space and time, and James Clerk Maxwell's idea that speed of
-                light is a constant. Einstein did this by introducing a special theory of relativity that stated
-                that the laws of physics are the same even for objects traveling in different inertial frames and that the
-                speed of light is constantly the same.
-    
-                The fifth article he created he famous equation E=mc^2. Its purpose is to calculate the relationship between
-                mass and energy.
-                The equation means mass (m) times the speed of light squared (c^2) is equal to the kinetic energy (E).
-            </p>
-        </section>
-        <section>
-            <h3>One great mistake of his life</h3>
-            <p>
+        <section class="article-text-bot">
+            <h3 style="border-bottom: 5px solid black; font-size: 30px;">One of the greatest mistakes in his life</h3>
+            <p style="margin-left: 15px;">
                 Einstein had a great impact on developing the bomb with his theory, but he never worked on the Manhattan
                 Project, nor was he aware the plans of
                 dropping the bombs at Hiroshima and Nagasaki. The fear of the Germans developing the bomb first rang many
                 alarm bells, so Einstein, together with Sachs,
                 had to encourage president Roosevelt to start a similar program of developing the first atomic bomb. In the
-                letter, it was written:
-                <em>
+                letter, it was written:<br>
+                <br>
+            </p>
+
+                <div class="quote"><em>
                     “In the course of the last four months it has been made probable…
                     that it may become possible to set up a nuclear chain reaction in a large mass of uranium by which vast
-                    amounts of power and large quantities of new radium-like elements would be generated,”
-    
-                    “Now it appears almost certain that this could be achieved in the immediate future.”
+                    amounts of power and large quantities of new radium-like elements would be generated,”<br>
+                </em></div>
+                <br>
+                <div class="quote">
+                <em>
+                    “Now it appears almost certain that this could be achieved in the immediate future.”<br>
                 </em>
+            </div>
+                <br>
+                <p style="margin-left: 15px;">
                 At first, Roosevelt didn't answer because of the preoccupied events taking place in Europe. The phycisist
                 feared that Roosevelt was not taking the nuclear threat seriously,
                 but after imagining the super weapon in the hands of the Nazis, He accepted. He suggested the establishment
@@ -127,14 +144,34 @@
                 mentioned earlier, Einstein never worked on the Manhattan Project. In a letter in 1954, Einstein discussed
                 the matter in a letter with a friend,
                 were he described his letter to Roosevelt as the <em>“one great mistake in my life.”</em>
-                Einstein had deep regret in the developing of the bomb, later saying:
-    
+                Einstein had deep regret in the developing of the bomb, later saying:<br>
+            </p>
+    <br>
+    <div class="quote">
                 <em>“Had I known that the Germans would not succeed in developing an atomic bomb, I would have done
                     nothing.”</em>
+                </div>
     
-            </p>
+            
         </section>
     </article>
+    <footer class="footer">
+        <div class="footer-icons">
+
+            <a href="https://www.facebook.com" title="facebook page" target="_blank">
+                <img src="assets/symbols/facebook.png" alt="facebook icon" class="footer-item"></a>
+
+            <a href="https://twitter.com" title="twitter page" target="_blank">
+                <img src="assets/symbols/twitter.png" alt="twitter icon" class="footer-item"></a>
+
+            <a href="https://www.instagram.com" title="instagram page" target="_blank" >
+                <img src="assets/symbols/instagram.png" alt="instagram icon" class="footer-item"></a>
+
+        </div>
+        Page made and designed by: Cas
+
+    </footer>
+
     </body>
     
     </html>
