@@ -186,7 +186,8 @@
     flex-direction: column;
 
     text-align: center;
-    margin-top: 5%;
+    margin-top: 15px;
+
 
     background-color: orange;
     border-top: 5px solid rgb(221, 146, 7);
@@ -254,12 +255,22 @@
     margin-top: 40px;
     box-shadow: 10px 10px grey;
     border: 5px solid black;
+    margin-right: 15px;
 }
-.gallery-item {
+/**https://www.bing.com/videos/riverview/relatedvideo?q=how%20to%20make%20a%20responsive%20gallery&mid=74DDF5E535200BA1F66D74DDF5E535200BA1F66D&ajaxhist=0**/
+.gallery-container {
+    position: relative;
+    min-height: 100vh;
+}
+.image-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: rgb(198, 198, 198);
-    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+#image {
+    width: fit-content;
+    height: 350px;
+    border: 5px solid grey;
 }
