@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Contact</title>
+
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Times New Roman';
+    }
+</style>
+    </head>
+    <body>
+        <header id="top-header">
+
+            <h1 id="top-title">THE ATOMIC BOMB</h1>
+            <nav>
+                <ul id="top-nav" style="list-style-type: none;">
+    
+                    <!-- on hover https://stackoverflow.com/questions/676324/div-background-color-to-change-onhover **/ -->
+    
+                    <li class="nav-item">
+                        <a href="index.html" class="top-nav" style="text-decoration: none; color: black;"
+                            onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
+                            Home<img src="assets/symbols/home.png" alt="Home symbol" class="symbol">
+                        </a>
+                    </li>
+    
+    
+                    <li class="nav-item">
+                        <a href="contact.html" class="top-nav" style="text-decoration: none; color: black;"
+                            onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
+                            Contact<img src="assets/symbols/contact.png" alt="Contact symbol" class="symbol">
+                        </a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="gallery.html" class="top-nav" style="text-decoration: none; color: black;"
+                            onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
+                            Gallery<img src="assets/symbols/gallery.png" alt="Gallery symbol" class="symbol">
+                        </a>
+                    </li>
+    
+                </ul>
+    
+            </nav>
+            </header>
+<div id="forms">
+<div id="question">           
+<h2>Frequently asked questions</h2>
+<h3>Who is the site owner?</h3>
+<p>The site is owned by Cas.</p>
+<h3>When was the site launched?</h3>
+<p>The site was launched 01/2024.</p>
+<h3>Is this site built for different screen sizes?</h3>
+<p>Yes.</p>
+<h3>What language option does the site have?</h3>
+<p>Only English.</p>
+</div> 
+
+
+<form id="contact" method="post"
+action="https://formdump.codeinstitute.net/">
+
+<h2 style="text-align: center;">Contact us!</h2>
+
+<label for="email">*Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email adress" required>
+    
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="First name/Last name">
+
+    <label for="feedback">*How can we help you?</label>
+<textarea id="feedback" name="feedback" cols="50" rows="10" placeholder="Type your message..." required></textarea>
+    
+</form>
+</div>
+
+
+
+            <footer class="footer">
+                <div class="footer-icons">
+    
+                    <a href="https://www.facebook.com" title="facebook page" target="_blank">
+                        <img src="assets/symbols/facebook.png" alt="facebook icon" class="footer-item"></a>
+    
+                    <a href="https://twitter.com" title="twitter page" target="_blank">
+                        <img src="assets/symbols/twitter.png" alt="twitter icon" class="footer-item"></a>
+    
+                    <a href="https://www.instagram.com" title="instagram page" target="_blank">
+                        <img src="assets/symbols/instagram.png" alt="instagram icon" class="footer-item"></a>
+    
+                </div>
+                Page made and designed by: Cas
+    
+            </footer>
+    </body>
+</html>
