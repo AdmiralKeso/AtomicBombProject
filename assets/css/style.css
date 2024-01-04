@@ -26,6 +26,9 @@
     .article-text {
         align-items: center;
     }
+    #forms {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -277,12 +280,15 @@ margin-top: 10px;
     display: flex;
     flex-direction: column;
     padding-right: 20px;
+    width: 55%;
 }
 #forms {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 205px;
 }
 #question {
     border-right: 2px solid black;
