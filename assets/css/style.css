@@ -12,7 +12,6 @@
     #top-nav {
         padding: 0;
     }
-
     .main-articles {
         flex-direction: column;
         margin-right: 40px;
@@ -52,9 +51,6 @@
     .quote-audio {
         flex-direction: column;
     }
-    #header-picture {
-        min-width: 150%;
-    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -77,13 +73,6 @@
 
     .left {
         align-items: center;
-    }
-
-    #top-image-text {
-        margin-top: 10px;
-    }
-    #header-picture {
-        min-width: 170%;
     }
 
 }
@@ -126,32 +115,21 @@
 
     margin-left: 5px;
 }
-
-
-/**https://www.w3schools.com/howto/howto_css_image_text.asp**/
-.top-image {
-    position: relative;
+#top-text {
     display: flex;
-    justify-content: center;
-}
-
-#top-image-text {
-    position: absolute;
-    top: 5%;
-    font-size: 100%;
-    font-family: Helvetica;
-    max-width: 80%;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-
-    background-color: orange;
-    border-top: 2px solid rgb(221, 146, 7);
-    border-bottom: 5px solid rgb(221, 146, 7);
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    background-color: rgb(214, 193, 152);
+    border-top: 5px solid rgb(221, 146, 7);
+    border-bottom: 5px solid hsl(39, 94%, 45%);
 }
-
-#header-picture {
+#header-image {
     width: 100%;
 }
-
 
 /** Articles mid section **/
 .main-articles {
