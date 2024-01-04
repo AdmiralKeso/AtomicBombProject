@@ -182,15 +182,15 @@
     margin-left: 5%;
 }
 
-.article-button {
-    background-color: beige;
-    border: 1px solid black;
-    border-radius: 15px;
-
-    width: 100%;
-    height: 35px;
-
-    margin-bottom: 5%;
+#read-more {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: .2s;
+}
+#read-more:hover {
+    color: white;
+    font-size: 23px;
 }
 
 /** Article bottom section **/
