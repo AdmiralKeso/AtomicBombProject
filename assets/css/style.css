@@ -186,8 +186,7 @@
     flex-direction: column;
 
     text-align: center;
-    justify-content: flex-end;
-
+margin-top: 10px;
 
     background-color: orange;
     border-top: 5px solid rgb(221, 146, 7);
