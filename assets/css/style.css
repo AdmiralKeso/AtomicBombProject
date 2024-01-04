@@ -346,3 +346,7 @@
     padding-left: 20px;
     background-color: antiquewhite;
 }
+#submit {
+    width: 80px;
+    margin-top: 15px;
+}
