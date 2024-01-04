@@ -49,6 +49,9 @@
         transform: rotate(-90deg); /**Rotate the picture 90 degrees**/
         min-width: 40%;
     }
+    .quote-audio {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -254,7 +257,7 @@
     width: 45px;
 }
 
-/** Einstein styling **/
+/** Articles styling **/
 .article-title {
     text-align: center;
     font-size: 30px;
