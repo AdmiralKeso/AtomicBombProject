@@ -182,13 +182,13 @@
     margin-left: 5%;
 }
 
-#read-more {
+.read-more {
     text-decoration: none;
     color: black;
     font-size: 20px;
     transition: .2s;
 }
-#read-more:hover {
+.read-more:hover {
     color: white;
     font-size: 23px;
 }
