@@ -26,6 +26,9 @@
     .article-text {
         align-items: center;
     }
+    .bottom-section {
+        flex-direction: column-reverse;
+    }
 
     #forms {
         flex-direction: column;
@@ -37,6 +40,14 @@
 
     .dream {
         width: 100%;
+    }
+    .bottom-section-text {
+        align-items: center;
+        text-align: center;
+    }
+    #bottom-image {
+        transform: rotate(-90deg); /**Rotate the picture 90 degrees**/
+        min-width: 40%;
     }
 }
 
@@ -190,15 +201,16 @@
     border-bottom: 5px solid hsl(39, 94%, 45%);
     box-shadow: 15px 15px rgb(236, 210, 174);
     display: flex;
-    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .bottom-section-text {
     display: flex;
     flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 #bottom-image {
@@ -294,7 +306,6 @@
 
 .image-container {
     display: flex;
-    justify-content: space-between;
 }
 
 .dream {
