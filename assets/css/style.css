@@ -52,6 +52,9 @@
     .quote-audio {
         flex-direction: column;
     }
+    #header-picture {
+        min-width: 150%;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -78,6 +81,9 @@
 
     #top-image-text {
         margin-top: 10px;
+    }
+    #header-picture {
+        min-width: 170%;
     }
 
 }
@@ -132,9 +138,9 @@
 #top-image-text {
     position: absolute;
     top: 5%;
-    font-size: 130%;
+    font-size: 100%;
     font-family: Helvetica;
-    max-width: 79%;
+    max-width: 80%;
     text-align: center;
 
     background-color: orange;
