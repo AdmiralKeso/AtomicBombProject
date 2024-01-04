@@ -283,7 +283,11 @@
     margin-left: 30px;
     padding-left: 5px;
 }
-
+.quote-audio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .article-portrait {
     width: 50%;
     height: 50%;
