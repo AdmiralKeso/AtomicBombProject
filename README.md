@@ -49,7 +49,7 @@ Returning visitor goals.
 
 ![Navigation](/assets/images/nav-bar.png)
 
-* Main navigation
+* Main heading
 * Completed with symbols and animation so its clearly a button.
     * A home page button which takes you to the main page.
     * Gallery to access the gallery
