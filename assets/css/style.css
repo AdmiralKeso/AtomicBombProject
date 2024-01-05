@@ -79,7 +79,7 @@
 
 #top-header {
     padding: 1rem;
-    background-color: orange;
+    background-color: #ffa500;
     border-top: 2px solid rgb(221, 146, 7);
     border-bottom: 5px solid rgb(221, 146, 7);
     display: flex;
@@ -121,11 +121,11 @@
     flex-direction: column;
     text-align: center;
     font-size: 18px;
-    border-top: 5px solid rgb(221, 146, 7);
-    border-bottom: 5px solid hsl(39, 94%, 45%);
+    border-top: 5px solid #dd9207;
+    border-bottom: 5px solid #df9307;
     width: 100%;
     margin: 0;
-    background-color: orange;
+    background-color: #ffa500;
 }
 #header-image {
     width: 100%;
