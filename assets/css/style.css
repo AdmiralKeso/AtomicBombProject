@@ -1,6 +1,6 @@
-
+/** Main header styling **/
 /**https://www.w3schools.com/cssref/css3_pr_mediaquery.php**/
-@media only screen and (max-width: 1040px) { /** Code runs when screen size is under 1040 px **/
+@media only screen and (max-width: 1040px) {
     #top-header {
         flex-direction: column;
     }
@@ -53,11 +53,10 @@
     }
 }
 
-@media only screen and (max-width: 550px) { /** Code runs when screen size is under 1040 px **/
+@media only screen and (max-width: 550px) {
     #top-title {
         display: flex;
         flex-direction: column;
-        text-align: center;
     }
 
     #top-nav {
@@ -77,10 +76,10 @@
     }
 
 }
-/** Main header styling **/
+
 #top-header {
     padding: 1rem;
-    background: orange;
+    background-color: orange;
     border-top: 2px solid rgb(221, 146, 7);
     border-bottom: 5px solid rgb(221, 146, 7);
     display: flex;
@@ -121,11 +120,20 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 18px;
     background-color: rgb(214, 193, 152);
     border-top: 5px solid rgb(221, 146, 7);
     border-bottom: 5px solid hsl(39, 94%, 45%);
+    width: 100%;
+    margin: 0;
+    background-color: orange;
+}
+#header-image {
+    width: 100%;
+    min-width: 900px;
+    height: auto;
 }
 
 /** Articles mid section **/
@@ -135,7 +143,7 @@
 
 }
 
-.mid-section { 
+.mid-section {
     display: flex;
 
     margin: 20px;
@@ -144,18 +152,16 @@
     border-top: 5px solid rgb(221, 146, 7);
     border-bottom: 5px solid hsl(39, 94%, 45%);
     background-color: rgb(214, 193, 152);
-    box-shadow: 15px 15px rgb(236, 210, 174);
-    /**https://www.w3schools.com/cssref/css3_pr_box-shadow.php**/
     text-align: center;
 
 }
 
-.left { /** Left side of the mid article section **/
+.left {
     display: flex;
     flex-direction: column;
 }
 
-.right { /** Right side of the mid article section **/
+.right {
     display: flex;
     flex-direction: column;
 
@@ -171,7 +177,7 @@
     font-size: 20px;
     transition: .2s;
 }
-.read-more:hover { /** Hover with mouse **/
+.read-more:hover {
     color: white;
     font-size: 23px;
 }
@@ -182,7 +188,6 @@
     background-color: rgb(214, 193, 152);
     border-top: 5px solid rgb(221, 146, 7);
     border-bottom: 5px solid hsl(39, 94%, 45%);
-    box-shadow: 15px 15px rgb(236, 210, 174);
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
@@ -200,7 +205,7 @@
     width: 15%;
     height: auto;
 }
-/** Footer styling **/
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -219,14 +224,14 @@
 }
 
 .footer-item {
-    width: 40px; /** Symbols **/
+    width: 40px;
 }
 
-.footer-item:hover { /** Hover with mouse on symbols **/
+.footer-item:hover {
     width: 45px;
 }
 
-/** Articles styling for both Oppenheimer and Einstein **/
+/** Articles styling **/
 .article-title {
     text-align: center;
     font-size: 30px;
