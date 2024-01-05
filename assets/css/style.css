@@ -204,6 +204,7 @@
 #bottom-image {
     width: 15%;
     height: auto;
+    overflow: hidden;
 }
 
 .footer {
