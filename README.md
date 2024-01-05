@@ -49,40 +49,41 @@ Returning visitor goals.
 
 ![Navigation](/assets/images/nav-bar.png)
 
-* Main heading
+* Main navigation
 * Completed with symbols and animation so its clearly a button.
     * A home page button which takes you to the main page.
     * Gallery to access the gallery
     * Contact button to contact me.
 
 ![Description](/assets/images/heading.png)
-
-* A brief description of what you can achieve through the page.
-
+* Description
+    * A brief description of what you can achieve through the page.
+    
 ![Articles](/assets/images/articles.png)
-
-* Two phycisist that where keypersons of the making of the bomb.
-* Brief introduction together with an image.
-* Read more buttons to go to page.
+* Articles
+    * Two phycisist that where keypersons of the making of the bomb.
+    * Brief introduction together with an image.
+    * Read more buttons to go to page.
 
 ![How-does-an-atomic-bomb-work](/assets/images/article-2.png)
-* Here you can read about how an atomic bomb works.
+* Article
+    * Here you can read about how an atomic bomb works.
 
 ![Footer](/assets/images/footer.png)
-
-* Links to the social media.
-* The author of the site.
+* Footer
+    * Links to the social media.
+    * The author of the site.
 
 ![Gallery](/assets/images/gallery.png)
-
-* Gallery page full of images of the atomic bomb.
-* Completed with header and footer for easy navigation.
+* Gallery
+    * Gallery page full of images of the atomic bomb.
+    * Completed with header and footer for easy navigation.
 
 ![Contact](/assets/images/contact.png)
-
-* frequently asked questions so you dont need to send.
-* Contact me for feedback.
-* Completed with header and footer for easy navigation.
+* Contact
+    * frequently asked questions so you dont need to send.
+    * Contact me for feedback.
+    * Completed with header and footer for easy navigation.
 
 ## Design
 
@@ -158,11 +159,11 @@ Returning visitor goals.
 
  * All content was written by the developer.
 
-![Oppenheimer source](https://www.nationalgeographic.com/history/article/julius-robert-oppenheimer-atomic-bomb-legacy)
-![Albert Einstein source](https://www.history.com/topics/inventions/albert-einstein)
-![E=mc2 source](https://www.britannica.com/science/E-mc2-equation)
-![Browning motion source](https://www.britannica.com/science/Brownian-motion)
-![Atomic bomb source](https://www.britannica.com/science/Brownian-motion)
+* [Oppenheimer source](https://www.nationalgeographic.com/history/article/julius-robert-oppenheimer-atomic-bomb-legacy)
+* [Albert Einstein source](https://www.history.com/topics/inventions/albert-einstein)
+* [E=mc2 source](https://www.britannica.com/science/E-mc2-equation)
+* [Browning motion source](https://www.britannica.com/science/Brownian-motion)
+* [Atomic bomb source](https://www.britannica.com/science/Brownian-motion)
  
 ### Media 
 
@@ -170,7 +171,7 @@ Returning visitor goals.
  * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
  * [Pixlr](https://pixlr.com/) Resizing images.
 
- ![Oppenheimer portrait](https://about.lanl.gov/lanl-resources/)
+ * [Oppenheimer portrait](https://about.lanl.gov/lanl-resources/)
 ---
 
 ## Acknowledgements
